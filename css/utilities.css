@@ -104,3 +104,23 @@ a.no-underline:hover {
     padding: 20px 20px;
   }
 }
+
+#markdown-wrapper h1,
+#markdown-wrapper h2   { margin-top: 1.5rem; }
+
+#markdown-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+#markdown-wrapper th,
+#markdown-wrapper td  {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 0.5rem 0.75rem;
+}
+
+#markdown-wrapper thead {
+  background: var(--bg-light, #f5f5f5);
+  font-weight: 600;
+}
